@@ -46,8 +46,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/thermanager.xml:system/etc/thermanager.xml
 
 # Doze
+#PRODUCT_PACKAGES += \
+#    SonyDoze
+
+# New Doze pkg
 PRODUCT_PACKAGES += \
-    SonyDoze
+    DeviceSettings
 
 # call dalvik heap config
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
