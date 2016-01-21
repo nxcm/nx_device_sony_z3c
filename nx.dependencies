@@ -7,15 +7,27 @@
   },
   {
     "remote":      "github",
-    "repository": "CyanogenMod/android_kernel_sony_msm8974",
-    "target_path": "kernel/sony/msm8974",
+    "repository": "CyanogenMod/android_device_sony_msm8974-common",
+    "target_path": "device/sony/msm8974-common",
     "revision":   "cm-13.0"
   },
   {
     "remote":      "github",
-    "repository": "CyanogenMod/android_device_sony_msm8974-common",
-    "target_path": "device/sony/msm8974-common",
+    "repository": "CyanogenMod/android_kernel_sony_msm",
+    "target_path": "kernel/sony/msm",
     "revision":   "cm-13.0"
+  },
+  {
+    "remote":      "github",
+    "repository": "CyanogenMod/android_hardware_qcom_display",
+    "target_path": "hardware/qcom/display-caf/sony",
+    "revision": "cm-13.0-sony"
+  },
+  {
+    "remote":      "github",
+    "repository": "CyanogenMod/android_hardware_qcom_media",
+    "target_path": "hardware/qcom/media-caf/sony",
+    "revision": "cm-13.0-sony"
   },
   {
     "remote":      "github",
@@ -39,6 +51,12 @@
     "remote":      "github",
     "repository": "TheMuppets/proprietary_vendor_sony",
     "target_path": "vendor/sony",
+    "revision":   "cm-13.0"
+  },
+  {
+    "remote":      "github",
+    "repository": "CyanogenMod/android_external_stlport",
+    "target_path": "external/stlport",
     "revision":   "cm-13.0"
   }
 ]
