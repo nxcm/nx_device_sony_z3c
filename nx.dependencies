@@ -31,6 +31,12 @@
   },
   {
     "remote":      "github",
+    "repository": "CyanogenMod/android_hardware_sony_camera",
+    "target_path": "hardware/sony/camera",
+    "revision":   "cm-13.0"
+  },
+  {
+    "remote":      "github",
     "repository": "CyanogenMod/android_device_sony_common",
     "target_path": "device/sony/common",
     "revision":   "cm-13.0"
@@ -49,14 +55,20 @@
   },
   {
     "remote":      "github",
-    "repository": "TheMuppets/proprietary_vendor_sony",
-    "target_path": "vendor/sony",
+    "repository": "CyanogenMod/android_hardware_sony_macaddrsetup",
+    "target_path": "hardware/sony/macaddrsetup",
     "revision":   "cm-13.0"
   },
   {
     "remote":      "github",
-    "repository": "CyanogenMod/android_external_stlport",
-    "target_path": "external/stlport",
+    "repository": "CyanogenMod/android_hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep",
+    "revision":   "cm-13.0"
+  },
+  {
+    "remote":      "github",
+    "repository": "TheMuppets/proprietary_vendor_sony",
+    "target_path": "vendor/sony",
     "revision":   "cm-13.0"
   }
 ]
